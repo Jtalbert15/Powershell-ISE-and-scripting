@@ -1,10 +1,11 @@
 # Powershell-ISE-and-scripting
 
-In this lab we will do some simple scripting.
+<img width="182" alt="Screenshot 2024-06-15 at 6 25 02 PM" src="https://github.com/Jtalbert15/Powershell-ISE-and-scripting/assets/66844406/9a1926b7-a6fa-499b-86c8-0edacce90832">
 
-Windows offers Windows Powershell ISE (Integrated scripting environment)
+<h1>Summary</h1>
+In this lab we will use Powershell ISE (Integrated Scripting Environment). We will use Powershell ISE to create a text file, add information to that file, and then finally we will extract information from that file and use that data to create AD Users
 
-This allows us to write and run scripts with a single click of the button
+<h1>Step 1) Creating a Text File</h1>
 
 First let's create a text file 
 
@@ -14,7 +15,9 @@ To do that we can use New-Item we'll call it names.txt
 
 With that we have created a text file in the users folder
 
-now lets add some names to the text field
+<h1>Writing Data to our Text File</h1>
+
+Now lets add some names to the text field
 
 <img width="898" alt="Screenshot 2024-06-02 at 2 14 51 PM" src="https://github.com/Jtalbert15/Powershell-ISE-and-scripting/assets/66844406/0b7ea258-f79a-44ac-a229-9a5e1b4e3f7c">
 
@@ -24,9 +27,9 @@ Out-File takes that string and puts it into the file we specify
 
 <img width="903" alt="Screenshot 2024-06-02 at 2 22 23 PM" src="https://github.com/Jtalbert15/Powershell-ISE-and-scripting/assets/66844406/e94d81ec-833b-4d38-a880-43b5e642ea30">
 
-Now after we have our first name we need to use the append paramateter
+Now after we have our first name we need to use the append parameteter
 
-This stops powershell from just overwriting our string and adds on from the previous string
+This stops Powershell from just overwriting our string and adds on from the previous string
 
 <img width="904" alt="Screenshot 2024-06-02 at 2 26 13 PM" src="https://github.com/Jtalbert15/Powershell-ISE-and-scripting/assets/66844406/218fbd0b-c0a8-415e-8d07-9c75b36ac6d6">
 
@@ -34,9 +37,11 @@ We can check our names.txt file and see that all of our names have been created
 
 <img width="801" alt="Screenshot 2024-06-02 at 2 26 58 PM" src="https://github.com/Jtalbert15/Powershell-ISE-and-scripting/assets/66844406/e3efd545-162e-48f2-8936-1555c5573c45">
 
+<h1>Step 3) Scripting with Powershell ISE</h1>
+
 Now we can do a little bit of scripting 
 
-Let's log our names to our powershell console
+Let's log our names to our Powershell console
 
 <img width="900" alt="Screenshot 2024-06-02 at 2 36 52 PM" src="https://github.com/Jtalbert15/Powershell-ISE-and-scripting/assets/66844406/bcea59e4-9354-4387-8858-10870d4826ce">
 
